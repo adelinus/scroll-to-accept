@@ -1,0 +1,34 @@
+body {
+  min-height: 100vh;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  line-height: 2;
+  background: #ffc600;
+}
+
+.wrapper {
+  width: 400px;
+  height: 80vh;
+  padding: 20px;
+  border: 1px solid #000;
+  background: #fff;
+  display: grid;
+  grid-template-rows: 1fr auto;
+}
+
+button {
+  background: #ff0060;
+  color: #fff;
+  font-size: 1rem;
+  padding: 20px;
+  transition: all 0.2;
+}
+
+button[disabled] {
+  opacity: 0.3;
+}
+
+.terms-and-conditions {
+  overflow: scroll;
+}
